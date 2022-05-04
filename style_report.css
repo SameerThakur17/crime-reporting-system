@@ -41,7 +41,7 @@
 }
  form {
   background-color:#D5D5D5 ;
-  padding: 5%;
+  padding: 4%;
   margin-top: 5%;
 }
 form h1{
@@ -50,8 +50,9 @@ form h1{
   text-decoration: underline #FF0000;;
 }
 form input{
+  font-family: "Montserrat", sans-serif;
   margin-top: 3%;
-  background-color: #e44e4ef6;
+  /* background-color: #e44e4ef6; */
   padding:1% ;
   border: inset;
   border-radius: 10px;
@@ -62,4 +63,31 @@ form input{
     color: #FF0000;
     padding: 10px;
     font-weight:bold;
+  }
+  input[type=text]{
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  input[type=email]{
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  input[type=number]{
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  #tex1{
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 2vw;
+    border: inset;
+    border-radius: 10px;
   }
