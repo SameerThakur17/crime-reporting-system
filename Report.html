@@ -18,25 +18,32 @@
         </ul>
 </header>
 <div>
+    
     <form action="#" id="form1">
-        <h1>Report A Crime</h1>
-        <label>Name</label>
-        <br><input type="text">
+       <h1>Report A Crime</h1>
+       <label>Report As</label>
+       <br>
+       <input type="radio"  onclick="enables()" name="select" checked>Verified User
+       <input type="radio" onclick="disable()" name="select">Anonymous User
+       <br>
+       <br>
+       <label>Name</label>
+        <br><input type="text" id="names">
         <br>
         <label>Email</label>
-        <br><input type="email">
+        <br><input type="email" id="mail">
         <br>
         <label>Age</label>
         <br>
-        <input type="number">
+        <input type="number" id="age">
         <br>
         <label>Phone Number</label>
         <br>
-        <input type="number">
+        <input type="number" id="numb">
         <br>
         <label>Aadhaar Card Number</label>
         <br>
-        <input type="number">
+        <input type="number" id="adhaar">
         <br>
         <label>Location of Crime</label>
         <br>
@@ -50,5 +57,8 @@
         <input type="submit" value="Submit" id="submit_btn">
     </form>
 </div>
+
+<script src="./script.js">
+</script>
 </body>
 </html>

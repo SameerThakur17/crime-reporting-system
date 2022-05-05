@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"); 
 body{
 background-image:url(./wp3007869-crime-wallpaper-in-hd.png);
+/* background-color: grey; */
 /* background-repeat: no-repeat;
 background-size: cover; */
 background-attachment: fixed;
-
+/* opacity: 0.7; */
 }
 .logo{
     float: left;
@@ -47,7 +48,7 @@ background-attachment: fixed;
   text-decoration: none;
 }
  form {
-  background-color:#D5D5D5 ;
+  background-color:#d5d5d574 ;
   padding: 4%;
   margin-top: 5%;
   width: 100%;
@@ -103,7 +104,7 @@ form input{
     margin: 8px 0;
     box-sizing: border-box;
     font-size: 1.5vw;
-    /* resize: none; */
+    resize: none;
   }
 #submit_btn{
   margin-left: 16%;
@@ -117,3 +118,11 @@ form input{
   background-color:rgba(0, 0, 0, 0.701);
 }
 
+input[type=radio]{
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+  margin-left: 5px;
+  padding: 5px;
+}
