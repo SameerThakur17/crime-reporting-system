@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"); 
+body{
+background-image:url(./wp3007869-crime-wallpaper-in-hd.png);
+/* background-repeat: no-repeat;
+background-size: cover; */
+background-attachment: fixed;
+
+}
 .logo{
     float: left;
   }
@@ -43,6 +50,9 @@
   background-color:#D5D5D5 ;
   padding: 4%;
   margin-top: 5%;
+  width: 100%;
+/* opacity: 0.7; */
+  
 }
 form h1{
   font-size: 3vw;
@@ -54,8 +64,8 @@ form input{
   margin-top: 3%;
   /* background-color: #e44e4ef6; */
   padding:1% ;
-  border: inset;
-  border-radius: 10px;
+  /* border: inset; */
+  /* border-radius: 10px; */
   margin-left: 5%;
   font-size: 1vw;
 } 
@@ -69,25 +79,41 @@ form input{
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
+    font-size: 1.5vw;
+
+    
   }
   input[type=email]{
     width: 40%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
+    font-size: 1.5vw;
   }
   input[type=number]{
     width: 40%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
+    font-size: 1.5vw;
   }
   #tex1{
     width: 40%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    font-size: 2vw;
-    border: inset;
-    border-radius: 10px;
+    font-size: 1.5vw;
+    /* resize: none; */
   }
+#submit_btn{
+  margin-left: 16%;
+  font-weight: bold;  
+  border-radius: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color: black;
+  color: #D5D5D5;
+}
+#submit_btn:hover{
+  background-color:rgba(0, 0, 0, 0.701);
+}
+
