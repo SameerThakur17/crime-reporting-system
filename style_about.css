@@ -73,3 +73,10 @@ a,div{
     flex-wrap: wrap;
     align-items: stretch;
   }
+  .head{
+    text-decoration: underline;
+  }
+  .head:hover{
+    text-decoration: underline red;
+    transition: all 0.5s ease-in-out;
+  }
