@@ -10,7 +10,7 @@ body{
     
 /* border: 2px solid red; */
 position: relative;
-height: 400px;
+height: 500px;
 width: 30%;
 margin: 10px 10px;
 background-color:#D5D5D5;
@@ -158,4 +158,8 @@ a,div{
       align-items: center;
       font-weight: 800;
       font-size: 40px;
+  }
+  .cardtext{
+      text-align: center;
+      text-decoration: underline;
   }
