@@ -2,6 +2,7 @@
 body {
   background: url(./Images/Background.png) ;
   background-attachment:fixed;
+  background-size: cover;
 }
 .logo{
     float: left;

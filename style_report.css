@@ -2,8 +2,8 @@
 body{
 background-image:url(./Images/Background.png);
 /* background-color: grey; */
-/* background-repeat: no-repeat;
-background-size: cover; */
+/* background-repeat: no-repeat;*/
+background-size: cover; 
 background-attachment: fixed;
 /* opacity: 0.7; */
 }

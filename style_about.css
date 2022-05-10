@@ -72,6 +72,8 @@ a,div{
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: stretch;
+    margin: auto;
+
   }
   .head{
     text-decoration: underline;
