@@ -13,3 +13,10 @@ function disable(){
     adhaar.disabled=true
     age.disabled=true
 }
+
+if (status=="true") {
+    window.alert("true")
+}
+else if (status=="false") {
+    window.alert("false")
+}
