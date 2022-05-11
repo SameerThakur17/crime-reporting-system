@@ -20,7 +20,7 @@
 </header>
 <div>
     
-    <form action="./main.php" id="form1" method="post">
+    <form action="#" id="form1">
        <h1>Report A Crime</h1>
        <label>Report As</label>
        <br>
@@ -29,33 +29,33 @@
        <br>
        <br>
        <label>Name</label>
-        <br><input type="text" id="names" name="name" placeholder="Enter Your Name">
+        <br><input type="text" id="names" required onblur="field1()"><span id="second"></span>
         <br>
         <label>Email</label>
-        <br><input type="email" id="mail" name="email"placeholder="Enter Your Email" >
+        <br><input type="email" id="mail" required>
         <br>
         <label>Age</label>
         <br>
-        <input type="number" id="age" name="age" placeholder="Enter Your Age">
+        <input type="number" id="age">
         <br>
         <label>Phone Number</label>
         <br>
-        <input type="number" id="numb" name="phnumber" placeholder="Enter Your Phone Number">
+        <input type="number" id="numb" onblur="checknumber()"><span id="first"></span>
         <br>
         <label>Aadhaar Card Number</label>
         <br>
-        <input type="number" id="adhaar" name="adhaar" placeholder="Enter Your Aadhaar Card Number">
+        <input type="number" id="adhaar" onblur="checknumber1()"><span id="third"></span>
         <br>
         <label>Location of Crime</label>
         <br>
-        <input type="text" name="location" placeholder="Enter Location of Crime" >
+        <input type="text">
         <br>
         <label for="textarea1">Description</label>
         <br>
-        <textarea placeholder="Describe The Crime" id="" cols="30" rows="10" name="textarea1"></textarea>
+        <textarea name="textarea1" id="tex1" cols="30" rows="10"> 
+        </textarea>
         <br>
         <input type="submit" value="Submit" id="submit_btn">
-
     </form>
 </div>
 

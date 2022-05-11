@@ -40,7 +40,7 @@ background-attachment: fixed;
   .nav_links li a {
     transition: all 0.3s ease 0s;
   }
-  li,a,form,textarea{
+  li,a,form{
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 30px;
@@ -96,7 +96,7 @@ form input{
     box-sizing: border-box;
     font-size: 1.5vw;
   }
-textarea{
+  #tex1{
     width: 40%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -123,4 +123,13 @@ input[type=radio]{
   border-radius: 50%;
   margin-left: 5px;
   padding: 5px;
+}
+#first{
+  margin-left: 10px;
+}
+#second{
+  margin-left: 10px;
+}
+#third{
+  margin-left: 10px;
 }
