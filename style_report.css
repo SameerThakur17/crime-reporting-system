@@ -40,7 +40,7 @@ background-attachment: fixed;
   .nav_links li a {
     transition: all 0.3s ease 0s;
   }
-  li,a,form{
+  li,a,form,textarea{
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 30px;
@@ -96,7 +96,7 @@ form input{
     box-sizing: border-box;
     font-size: 1.5vw;
   }
-  #tex1{
+textarea{
     width: 40%;
     padding: 12px 20px;
     margin: 8px 0;
